@@ -31,7 +31,7 @@ app.use('/api',route);
 
 
     app.get('/',(req,res)=>{
-        res.send('Test');
+        res.send('Test, Api is runing!');
     })
     app.listen(PORT,()=>{
         console.log('Server is started at PORT 3000'); 
